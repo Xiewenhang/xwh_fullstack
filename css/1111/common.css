@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    background-color:#ee0a3b;
+}
+html{
+    font-size: 37.5px;
+}
+.tm_hader {
+    /* 空格表示后代 +表示兄弟选择器 >子选择器
+    rem 相对于html font-size(37.5)单位 px绝对单位
+     */
+    width: 10rem;
+}
+ul,li{
+    list-style: none;
+}
+ul.items{
+    /* 手机是retina屏
+    1px */
+ padding: 0.13333rem;
+}
+.flag{
+    display:table;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+.flag .flag-item{
+    display:table-cell;
+    vertical-align: top;
+    padding: 0.16rem 0;
+}
+.flag .figure.flag-item{
+    width: 2.34666rem;
+    height: 2.3466rem;
+    display:table-cell;
+    vertical-align: top;
+    background-color: rgb(0, 2, 128);
+}
+.flag .flag-item.figcaption{
+    background-color:honeydew;
+
+}
+.flag .figcaption.flag-item .flag-title{
+    font-size: 1rem;
+    color:green;
+}

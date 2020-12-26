@@ -1,0 +1,39 @@
+Page({
+  data: {
+    phones:[{
+      title:'iphone13',
+      desc:'史上最强手机',
+      price:'13333.00',
+      thumb:'https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597145789.9525714.jpg',
+      num:'2'
+    },{
+      title:'xiaomi',
+      desc:'得屌丝者得天下',
+      price:'1000.00',
+      thumb:'https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597145789.9525714.jpg',
+      num:'2'
+    },{
+      title:'xiaomi',
+      desc:'得屌丝者得天下',
+      price:'1000.00',
+      thumb:'https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597145789.9525714.jpg',
+      num:'2'
+    }],
+    dailao: '上菜',
+    xgg:'刘艺龙',
+    imageURL:'https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597145789.9525714.jpg',
+    imageURL2:'https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597145789.9525714.jpg',
+  },
+  onload(){
+     setTimeout(()=>{
+       this.setDate({
+    dailao:'陈木景'
+  })
+     },5000)
+     setTimeout(()=>{
+       this.setData({
+         xgg:'刘艺龙'
+       })
+     },10000)
+}
+})

@@ -1,0 +1,14 @@
+<!-- <text class="t1">{{dailao}}</text>
+<view >
+ <text class="t2">hedllo,{{xgg}}</text>
+</view> -->
+<van-card
+wx:for="{{phones}}"
+wx:for-item="phone"
+wx:key="index"
+  title="{{phone.title}}"
+  desc="{{phone.desc}}"
+  price="{{phonr.price}}  "
+  num="{{phone.num}}"
+  thumb="{{phone.thumb}}">
+</van-card>

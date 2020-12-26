@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>代理模式</title>
+</head>
+<body>
+    <script>
+        //男主角 xwh Object
+        //由两部分组成 属性+方法
+        const xwh ={
+            name:'王殿虎',
+            age: 22,
+            isSingle:true,
+            hometown:'南昌',
+            sendFlowed(sender){
+                sender.receiveFlower(this);
+            }
+        }
+        const xm={
+            name:'小美',
+            xq:50,
+            receiveFlower(targer){
+console.log(this.name+'收到了'+targer.name +'的花');
+if(this.xq < 80){
+    console.log('不约，我们不约');
+}else{
+    console.log('万达走一波');
+}
+            }
+        }
+        const xh={
+            name: '小红',
+            hometown: '南昌',
+            //代理模式
+            //接口
+            receiveFlower(target){
+                setTimeout(()=>{
+                    xm.xq=90;
+                    xm.receiveFlower(target);
+                },2000);
+                // if (target.name == xwh){
+                    
+                // }
+
+            }
+        }
+    </script>
+    <a href="dsh" style="display: block;position: fixed;bottom: 200px;right: 100px;border: 1px solid 
+    black;height: 100px;width: 100px;background-color: cadetblue;">vsfvs</a>
+</body>
+</html>
