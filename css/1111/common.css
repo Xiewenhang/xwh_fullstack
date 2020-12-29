@@ -45,7 +45,7 @@ ul.items{
     height: 2.3466rem;
     display:table-cell;
     vertical-align: top;
-    /* background-color: rgb(0, 2, 128);
+   /* background-color: rgb(0, 2, 128); */
 } 
 .flag .flag-item.figcaption{
     /* background-color:honeydew; */
@@ -68,7 +68,7 @@ ul.items{
     color: #333333;
     line-height: 1.25;
     overflow: hidden;
-    -webkit-line-clamp: 2 ;
+     -webkit-line-clamp: 2 ;/*只能写两行 */
 }
 .flag .flag-price{
     padding: 0.15rem 0 0.2em;
