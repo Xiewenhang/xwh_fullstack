@@ -1,0 +1,10 @@
+Object.assign({},{
+    a:1,
+    b:2,
+    say()
+    {
+        console.log(
+            (this.s+this.b)
+        )
+    }
+})
