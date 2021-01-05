@@ -1,12 +1,26 @@
 {
+<<<<<<< HEAD
   "name": "jx_lesson",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+=======
+  "name": "my",
+  "version": "1.0.0",
+  "description": "",
+  "main": "my.js",
+>>>>>>> ff09b9fb93a3b13db129890589b32c7661a64bc2
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
+<<<<<<< HEAD
   "license": "ISC"
+=======
+  "license": "ISC",
+  "dependencies": {
+    "@vant/weapp": "^1.6.4"
+  }
+>>>>>>> ff09b9fb93a3b13db129890589b32c7661a64bc2
 }
